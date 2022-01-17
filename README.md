@@ -25,8 +25,8 @@ Instead of one person from the start to the end, it came up with two people at [
 3. Count the number of breaking a wall to the exit
    As the figure below, when there is the same wall that both people can get access to, there is a way to get out because it means there is a route from the entrance to the wall and also from the wall to the exit
 
-<img width="500" alt="one-wall" src="https://user-images.githubusercontent.com/57608628/149684824-3bd849d3-cab0-478b-9dea-1775488043e7.png">
+<img width="600" alt="one-wall" src="https://user-images.githubusercontent.com/57608628/149684824-3bd849d3-cab0-478b-9dea-1775488043e7.png">
 
-_Figure 1. The case of one wall_
+But if more than two walls exist, both people cannot reach out to the same wall as they only can break one wall. To be specific, one person marks the wall off as **_visited_**, but cannot move onto the wall so that the other walls are not reachable, as described below.
 
-<img width="500" alt="more-than-two-walls" src="https://user-images.githubusercontent.com/57608628/149684820-0f985350-219c-4c67-8a00-e8a0dcdf77f7.png">
+<img width="600" alt="more-than-two-walls" src="https://user-images.githubusercontent.com/57608628/149684820-0f985350-219c-4c67-8a00-e8a0dcdf77f7.png">
